@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio  | Front</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </div>
+    <div class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Port<span>fólio</span></a></div>
+            <ul class="menu">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#skills">Especialidade</a></li>
+                <li><a href="#teams">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <div class="menu-btn">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+
+    <!--home inicio-->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Olá, meu nome é</div>
+                <div class="text-2">Franklin</div>
+                <div class="text-3">eu sou <span class="typing"></span></div>
+                <a href="#contact">Contratar-me</a>
+            </div>
+        </div>
+    </section>
+
+    <!--sessão sobre-->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">Sobre</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img id="img" src="/image 1.png" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">Sou Franklin e sou <span class="typing-2"></span></div>
+                    <p>Sou um cara amante da tecnologia e design ,Tenho experiências com algumas ferramentas ,Gosto de trabalhar em equipe sempre focado na qualidade do produto e safisfação total do cliente ,Com metodologías ágeis e planejamento com uma pesquisa de usuário eficaz concluiremos os objetivos almejados.</p>
+                    <a href="https://docs.google.com/document/d/1F_gvbPBH7DShvfQuvNK3xjZS-DJLJtl84dr-xQAZWH8/edit?usp=share_link">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!--sessão serviços-->
+     <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">Serviços</h2>
+            <div class="serv-content">
+               <div class="card">
+                   <div class="box">
+                    <ion-icon name="brush-outline"></ion-icon>
+                    <div class="text">Web Design</div>
+                    <p>Um projeto é mais que funcional ,É a imersão do usuário naquela plataforma através do Design</p>
+                   </div>
+               </div>
+
+               <div class="card">
+                <div class="box">
+                    <ion-icon name="trending-up-outline"></ion-icon>
+                 <div class="text">Banco de dados</div>
+                 <p>Ligação com o Banco de dados e retorno pra o usuário através do PHP ou JavaScript</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="box">
+                    <ion-icon name="code-outline"></ion-icon>
+                 <div class="text">Desenvolvedor Web</div>
+                 <p>Desenvolvimento constante na parte Web ,Front ,Beck ,Designer sempre aberto a novas opiniões</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+     <!--sessão especialidade-->
+     <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">Especialidades</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">Minhas Habilidades criativas e Experiências</div>
+                    <p>Nesse tempo que eu estou na estrada aprendi muitas habilidades Na qual irei usar sempre em projetos futuros como: Figma ,Buuble Js Bootstrap ,Elementor(Wordpress) ,Photoshop ,AdobeXD ,PhP Css, Mysql entre outras..</p>
+                    <a href="#teams">Mais informações</a>
+                </div>
+                <div class="column right">
+                   <div class="bars">
+                       <div class="info">
+                           <span>UX Designer</span>
+                           <span>93%</span>
+                       </div>
+                       <div class="line html"></div>
+                   </div>
+                   <div class="bars">
+                    <div class="info">
+                        <span>CSS</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="line css"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>JavaScript</span>
+                        <span>87%</span>
+                    </div>
+                    <div class="line js"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>PHP</span>
+                        <span>47%</span>
+                    </div>
+                    <div class="line php"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>MySQL</span>
+                        <span>42%</span>
+                    </div>
+                    <div class="line mysql"></div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!--sessão equipe-->
+     <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">Projetos</h2>
+           <div class="carousel owl-carousel ">
+               <div class="card">
+                   <div class="box">
+                       <img src="/aqui.png" alt="">
+                       <div class="text">Estudos de Casos</div>
+                       <p>Vários estudos de caso ,Wireframes prontos pra serem executados diretamente no projeto ,Estudos de caso e prototipos de alta fidelidade</p>
+                       <button  onclick="resumo1()" id="btt">Iniciar</button>
+                    </div>
+               </div>
+               <div class="card">
+                <div class="box">
+                    <img src="/aa.png" alt="">
+                    <div class="text">Projeto FkM</div>
+                    <p>Um App com muitas iterações ,Nele pude fazer a parte de banco de dados e por em pratica a pós etapa do protótipo</p>
+                    <button id="btt" onclick="resumo2()">Iniciar</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="/rest.png" alt="">
+                    <div class="text">E-comerce</div>
+                    <p>Projeto voltado ao comercio da gastronomia ,Um design moderno e eficaz fazendo com que o usuário se sinta mais confortável</a></p>
+                    <button id="btt" onclick="resumo()">Iniciar</button>
+                </div>
+            </div>
+           </div>
+        </div>
+    </section>
+
+    <!--Sessão contato-->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contato</h2>
+            <div class="contact-content">
+               <div class="column left">
+                   <div class="text">Fale comigo</div>
+                   <p>Me Envie uma mensagem por email se quiser me contratar</p>
+               
+               <div class="icons">
+                   <div class="row">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <div class="info">
+                            <div class="head">Nome</div>
+                            <div class="sub-title">Franklin Rodrigues </div>
+                        </div>
+                   </div>
+                   <div class="row">
+                    <img id="immg" src="/Untitled_design__4_-removebg-preview.png" name="earth-outline"></img>
+                    <div class="info">
+                        <div class="head">Redes Sociais</div>
+                        <div class="sub-title"><a href="https://www.facebook.com/franklim.rodrigues.984">facebook.com/franklim.rodrigues.984</a></div>
+                    </div>
+               </div>
+               <div class="row">
+                <ion-icon name="person-outline"></ion-icon>
+                <div class="info">
+                    <div class="head">Email</div>
+                    <div class="sub-title">iottngs.com</div>
+                </div>
+           </div>
+               </div>
+            </div><!--column left-->
+            <div class="column rigth">
+                <div class="text">Mensagem</div>
+                <form action="#">
+                    <div class="fields">
+                        <div class="field name">
+                            <input type="text" placeholder="Nome" required>
+                        </div>
+                        <div class="field email">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="field">
+                            <input type="text" placeholder="Sobrenome" required>
+                        </div>
+                        <div class="field textarea">
+                           <textarea  cols="30" rows="10" placeholder="Escrever...." required></textarea>
+                        </div>
+                        <div class="button">
+                            <button id="btt12" type="submit">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!--sessão  footer-->
+    <footer>
+        <span>Criado por <a href="#">Franklin</a> | Todos os direitos reservado 2023</span>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+</body>
+<script src="index.js"></script>
+<script>function resumo(){
+    window.location = ("https://big-pizza.netlify.app")}
+</script>
+
+</html>
