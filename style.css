@@ -660,4 +660,14 @@ footer span a:hover{
     #btt{
         margin-top: 10px;
     }
-}
+} @media (max-width: 360px){
+        .about .title::after{
+           content: none;
+     }
+     .services .title::after{
+         content: none;
+     }
+     .teams .title::after{
+        content: none;
+     }
+    }
