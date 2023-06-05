@@ -1,5 +1,5 @@
 
-     *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,14 +9,18 @@ html{
     scroll-behavior: smooth;
 }
 #img{
-    width: 150px;
-    height: 200px;
+    width: 200px;
+    height: 230px;
     margin-left: 100px;
     margin-top: -30px;
+    box-shadow: 5px 2px #763CAC;
 }
 #immg{
     width: 30px;
     height: 30px;
+}
+.immg:hover{
+        transform: scale(1.5);
 }
 a{
     text-decoration: none;
@@ -41,7 +45,7 @@ a{
     padding: 0 80px;
     margin: auto;
 }
-/*  navbar   inicio*/
+
 .navbar{
     position: fixed;
     width: 100%;
@@ -88,7 +92,7 @@ a{
 .navbar.sticky .menu li a:hover{
     color: #fff;
 }
-/*  Home   inicio  */
+
 .home{
     display: flex;
     background: black;
@@ -164,7 +168,6 @@ a{
     
 }
 
-/*  todos os codigos similares  */
 section{
     padding: 100px 0;
 }
@@ -401,6 +404,7 @@ section .title::after{
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
+    
 }
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
@@ -430,7 +434,7 @@ section .title::after{
 .owl-dot:hover{
     background: #763CAC!important;
 }
-/*  sessão Contato  */
+
 .contact .title::after{
     content: "Fale comigo";
 }
@@ -537,6 +541,8 @@ footer span a{
 }
 footer span a:hover{
     text-decoration: underline;
+
+
 }
 
 
