@@ -46,12 +46,12 @@
             <h2 class="title">Sobre</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img id="img" src="imagens/photo2.png" alt="">
+                    <img id="img" src="/images/photo6.png" alt="">
                 </div>
                 <div class="column right">
                     <div class="text">Sou Franklin e sou <span class="typing-2"></span></div>
                     <p>Sou um cara amante da tecnologia e design ,Tenho experiências com algumas ferramentas ,Gosto de trabalhar em equipe sempre focado na qualidade do produto e safisfação total do cliente ,Com metodologías ágeis e planejamento com uma pesquisa de usuário eficaz concluiremos os objetivos almejados.</p>
-                    <a href="https://docs.google.com/document/d/1F_gvbPBH7DShvfQuvNK3xjZS-DJLJtl84dr-xQAZWH8/edit?usp=share_link">Download CV</a>
+                    
                 </div>
             </div>
         </div>
@@ -80,8 +80,8 @@
             <div class="card">
                 <div class="box">
                     <ion-icon name="code-outline"></ion-icon>
-                 <div class="text">Desenvolvedor Web</div>
-                 <p>Desenvolvimento constante na parte Web ,Front ,Back ,Designer sempre aberto a novas opiniões</p>
+                 <div class="text">Programação .Net</div>
+                 <p>Desenvolvimento iterativo Web ,Front ,Back ,Designer sempre aberto a novas opiniões</p>
                 </div>
             </div>
             </div>
@@ -93,26 +93,26 @@
            <div class="carousel owl-carousel ">
                <div class="card">
                    <div class="box">
-                       <img src="imagens/aqui.png" alt="">
-                       <div class="text">Estudos de Casos</div>
-                       <p>Vários estudos de caso ,Wireframes prontos pra serem executados diretamente no projeto ,Estudos de caso e prototipos de alta fidelidade</p>
-                       <button  onclick="resumo1()" id="btt">Em breve</button>
+                       <img src="/images/3.png" alt="">
+                       <div class="text">Localizador</div>
+                       <p>Um Localizador de CEP feito em React js com uso de API </p>
+                       <button  onclick="link1()" id="btt">Iniciar</button>
                     </div>
                </div>
                <div class="card">
                 <div class="box">
-                    <img src="imagens/aa.png" alt="">
+                    <img src="/images/2.png" alt="">
                     <div class="text">Projeto FkM</div>
-                    <p>Um App com muitas iterações ,Nele pude fazer a parte de banco de dados e por em pratica a pós etapa do protótipo e muito mais</p>
-                    <button id="btt" onclick="resumo2()">Em breve</button>
+                    <p>Um projeto de conversor de moedas ,usei algumas APIs ,js ,Um design clássico</p>
+                    <button id="btt" onclick="link2()">Iniciar</button>
                 </div>
             </div>
             <div class="card">
                 <div class="box">
-                    <img src="imagens/rest.png" alt="">
+                    <img src="images/5.png" alt="">
                     <div class="text">E-comerce</div>
-                    <p>Projeto voltado ao comercio da gastronomia ,Um design moderno e eficaz fazendo com que o usuário se sinta mais confortável</a></p>
-                    <button id="btt" onclick="resumo()">Iniciar</button>
+                    <p>Projeto voltado ao comercio no ramo da gastronomia  feito em html , css e js </a></p>
+                    <button id="btt" onclick="link3()">Iniciar</button>
                 </div>
             </div>
            </div>
@@ -130,37 +130,41 @@
                
                <div class="icons">
                    <div class="row">
-                        <ion-icon name="person-outline"></ion-icon>
+                    <img class="immg" id="immg" src="/images/8.png" name="earth-outline"></img>
                         <div class="info">
                             <div class="head">Nome</div>
                             <div class="sub-title">Franklin Rodrigues </div>
                         </div>
                    </div>
                    <div class="row">
-                    <img id="immg" src="imagens/Untitled_design__4_-removebg-preview.png" name="earth-outline"></img>
+                    <img  class="immg" id="immg" src="/images/1.png" name="earth-outline"></img>
                     <div class="info">
                         <div class="head">Redes Sociais</div>
-                        <div class="sub-title"><a href="https://www.facebook.com/franklim.rodrigues.984">facebook.com/franklim.rodrigues.984</a></div>
+                        <div class="sub-title"><a href="https://www.linkedin.com/in/franklinrodrigues2023/">linkedin/in/franklin</a></div>
                     </div>
                </div>
                <div class="row">
-                <ion-icon name="person-outline"></ion-icon>
+                <img class="immg" id="immg" src="/images/7.png" name="earth-outline"></img>
                 <div class="info">
                     <div class="head">Email</div>
                     <div class="sub-title">iottngs.com</div>
                 </div>
            </div>
                </div>
-            </div><!--column left-->
+            </div>
             <div class="column rigth">
                 <div class="text">Mensagem</div>
-                <form action="#">
+                <form
+                action="https://formsubmit.co/ajax/iottngs@gmail.com"
+                method="POST"
+                data-form
+              >
                     <div class="fields">
                         <div class="field name">
-                            <input type="text" placeholder="Nome" required>
+                            <input type="text" placeholder="Nome" required name="nome">
                         </div>
                         <div class="field email">
-                            <input type="email" placeholder="Email" required>
+                            <input type="email" placeholder="Email" required name="email">
                         </div>
                     </div>
                     <div class="field">
@@ -168,10 +172,10 @@
                             <input type="text" placeholder="Sobrenome" required>
                         </div>
                         <div class="field textarea">
-                           <textarea  cols="30" rows="10" placeholder="Escrever...." required></textarea>
+                           <textarea  name="message" cols="30" rows="10" placeholder="Escrever...." required></textarea>
                         </div>
                         <div class="button">
-                            <button id="btt12" type="submit">Enviar</button>
+                            <button id="btt12" type="submit" data-button>Enviar</button>
                         </div>
                     </div>
                 </form>
@@ -195,8 +199,79 @@
 
 </body>
 <script src="index.js"></script>
-<script>function resumo(){
+<script>function link3(){
     window.location = ("https://big-pizza.netlify.app")}
+    function link2(){
+    window.location = ("https://dev-franklin.github.io/conversor-de-moedas/")}
+   function link1(){
+    window.location = ("https://big-pizza.netlify.app")}
+
+
+    class FormSubmit {
+  constructor(settings) {
+    this.settings = settings;
+    this.form = document.querySelector(settings.form);
+    this.formButton = document.querySelector(settings.button);
+    if (this.form) {
+      this.url = this.form.getAttribute("action");
+    }
+    this.sendForm = this.sendForm.bind(this);
+  }
+
+  displaySuccess() {
+    this.form.innerHTML = this.settings.success;
+  }
+
+  displayError() {
+    this.form.innerHTML = this.settings.error;
+  }
+
+  getFormObject() {
+    const formObject = {};
+    const fields = this.form.querySelectorAll("[name]");
+    fields.forEach((field) => {
+      formObject[field.getAttribute("name")] = field.value;
+    });
+    return formObject;
+  }
+
+  onSubmission(event) {
+    event.preventDefault();
+    event.target.disabled = true;
+    event.target.innerText = "Enviando...";
+  }
+
+  async sendForm(event) {
+    try {
+      this.onSubmission(event);
+      await fetch(this.url, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(this.getFormObject()),
+      });
+      this.displaySuccess();
+    } catch (error) {
+      this.displayError();
+      throw new Error(error);
+    }
+  }
+
+  init() {
+    if (this.form) this.formButton.addEventListener("click", this.sendForm);
+    return this;
+  }
+}
+
+const formSubmit = new FormSubmit({
+  form: "[data-form]",
+  button: "[data-button]",
+  success: "<h1 class='success'>Mensagem enviada!</h1>",
+  error: "<h1 class='error'>Não foi possível enviar sua mensagem.</h1>",
+});
+formSubmit.init();
 </script>
 
 </html>
